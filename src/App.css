@@ -1,3 +1,38 @@
+/* ----------------------- My-CSS ----------------------- */
+nav {
+  height: 30px;
+}
+
+.flex-center {
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 30px);
+  background-color: red;
+}
+
+.typing-area {
+  /* width: 500px; */
+  /* height: 100px; */
+  /* background-color: blue; */
+  font-size: 30px;
+  height: 135px;
+  border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------- default react css -- needs to be removed ----------------------- */
+
 .App {
   text-align: center;
 }
@@ -32,6 +67,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
