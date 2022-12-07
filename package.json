@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Arush-Bansal/voiciful/issues"
   },
-  "homepage": "https://github.com/Arush-Bansal/voiciful#readme"
+  "homepage": "https://github.com/Arush-Bansal/voiciful#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  }
 }
