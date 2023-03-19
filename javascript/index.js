@@ -29,9 +29,24 @@ let newInput = () => {
     }
 }
 
+
+
+
+
 typingbox.addEventListener("click", () => {
     speak();
     speak();
 })
 
 typingbox.addEventListener("input", newInput)
+
+
+
+// ------------- Testing some code -----------------
+
+function httpGet(theUrl) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", theUrl, false); // false for synchronous request
+    xmlHttp.send(null);
+    return xmlHttp.responseText;
+}
